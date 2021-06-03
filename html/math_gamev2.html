@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Game 4.0</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+    <div id="containterDiv" class="container border-radius bg-aqua">
+        <div id="firstRow" class="border-radius">
+            <div id="resultDiv" class="inline-block bg-yellowgreen text-center display-none"></div>
+            <div id="scoreDiv" class="inline-block float-right bg-yellowgreen shadow">Score:
+            </div>
+        </div>
+        <div id="secondRow">
+            <div id="questionDiv" class="border-radius bg-purple text-center">
+            </div>
+            <div id="howToDiv" class="bg-darkpurple text-center border-radius">Click on the correct answer</div>
+            <div id="groupAnswerDiv">
+                <div class="box-item text-center inline-block shadow bg-white"></div>
+                <div class="box-item text-center inline-block shadow bg-white"></div>
+                <div class="box-item text-center inline-block shadow bg-white"></div>
+                <div class="box-item text-center inline-block shadow bg-white"></div>
+            </div>
+        </div>
+        <div id="thirdRow" class="border-radius">
+            <button id="btnReset" class="btn inline-block shadow text-center display-none">Reset Game</button>
+            <button id="btnStart" class="btn inline-block shadow text-center">Start Game</button>
+            <div id="timerDiv" class="inline-block float-right bg-yellowgreen shadow">
+            </div>
+        </div>
+    </div>
+    <div id="notifyDiv" class="display-none">
+        <div id="notifyContent" class="bg-orange-gradient text-center"></div>
+    </div>
+    <script src="../js/enum.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>

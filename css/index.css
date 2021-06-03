@@ -1,0 +1,175 @@
+.text-center {
+    text-align: center;
+}
+
+.container {
+    margin: 0;
+    position: relative;
+}
+
+.border {
+    border-color: black;
+    border: 1px solid;
+}
+
+.border-radius {
+    border-radius: 5px;
+}
+
+#groupAnswerDiv {
+    width: 100%;
+    font-size: 0;
+    margin: 1rem 0;
+}
+
+.box-item {
+    width: calc(100%/4 - 7.5px);
+    padding: 1rem 0;
+    background-color: lightcyan;
+    font-size: 1rem;
+    margin-right: 10px;
+    height: 3rem;
+}
+
+#groupAnswerDiv>.box-item:last-child {
+    margin-right: 0;
+}
+
+.box-item:hover {
+    background-color: gray;
+    border: gray;
+    color: white;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+#containterDiv {
+    width: 40rem;
+    height: 30rem;
+    padding: 1.5rem;
+    margin: 0 auto;
+}
+
+#questionDiv {
+    width: 100%;
+    margin-top: 10px;
+    padding: 1.5rem 0;
+    font-size: 4rem;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    height: 5rem;
+}
+
+#howToDiv {
+    width: 100%;
+    margin-top: 10px;
+    padding: 1.5rem 0;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+#firstRow {
+    height: 15%;
+}
+
+#secondRow {
+    height: 70%;
+}
+
+#thirdRow {
+    margin-bottom: 1em;
+    height: 15%;
+}
+
+#resultDiv {
+    width: 15%;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.bg-aqua {
+    background-color: #9dd2ea;
+}
+
+.bg-darkpurple {
+    background-color: #b481d9;
+}
+
+.bg-purple {
+    background-color: #9da0ea;
+}
+
+.bg-yellowgreen {
+    background-color: #f1ff92;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-orange-gradient {
+    background-color: #ff9d65;
+    background-image: linear-gradient(62deg, #f89e6a 0%, #fdc639 33%);
+}
+
+.btn {
+    padding: 1rem;
+    border-width: 0;
+    background-color: lightcyan;
+}
+
+.btn:hover {
+    background-color: gray;
+    border: gray;
+    color: white;
+}
+
+#scoreDiv {
+    padding: 1rem;
+    height: 1rem;
+    width: 6rem;
+}
+
+#resultDiv {
+    padding: 1rem;
+}
+
+#timerDiv {
+    padding: 1rem;
+    height: 1rem;
+    width: 6rem;
+}
+
+#notifyDiv {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#notifyContent {
+    padding: 2rem 3rem;
+    width: 25rem;
+    height: 10rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    margin: 10rem auto;
+}
+
+.shadow {
+    -webkit-box-shadow: 4px 5px 6px -1px rgba(79, 94, 101, 0.86);
+    box-shadow: 4px 5px 6px -1px rgba(79, 94, 101, 0.86);
+}
+
+.display-none {
+    display: none;
+}
